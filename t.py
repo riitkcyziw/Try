@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from groq import Groq
 
 # Groq API setup
-client = Groq(api_key=os.environ.get("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"))
+client = Groq(api_key=os.environ.get("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"))
 
 # Telegram Bot Token
 TOKEN = os.environ.get("8370832160:AAFMdZ5bjdxFYtQKQPunw2P2PXBha3-3nmw")
